@@ -27,16 +27,8 @@ public class PontoCartesiano {
 
     public double calcular_distancia(PontoCartesiano p) {
         double cateto_a = pontoX - p.pontoX;
-        if (cateto_a < 0) {
-            Math.abs(cateto_a);
-
-        }
         System.out.println(cateto_a);
         double cateto_b = pontoY - p.pontoY;
-        if (cateto_b < 0) {
-            Math.abs(cateto_b);
-
-        }
         System.out.println(cateto_b);
         double distancia = Math.sqrt(Math.pow(cateto_a, 2) + Math.pow(cateto_b, 2));
         return distancia;
