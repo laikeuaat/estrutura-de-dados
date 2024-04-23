@@ -1,4 +1,4 @@
-package Alunos;
+package InterfaceVetorAlunos
 
 public class Vetor implements IvetorAlunos {
     private Alunos[] alunos;
