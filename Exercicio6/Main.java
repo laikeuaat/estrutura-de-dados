@@ -11,6 +11,7 @@ public class Main {
         vetor.adicionaItem(8);
         vetor.adicionaItem(9);
         vetor.adicionaItem(10);
+        //Testa se ele adiona um item a mais do que a capacidade máxima
         vetor.adicionaItem(35);
         System.out.println("Maior valor do vetor: " + vetor.maiorRecursivo());
         System.out.println("Maior valor do vetor: " + vetor.maiorIterativo());

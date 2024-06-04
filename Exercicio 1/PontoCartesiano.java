@@ -3,12 +3,12 @@ import java.lang.Math;
 public class PontoCartesiano {
     private double pontoX;
     private double pontoY;
-
+    
     public PontoCartesiano(double pontoX, double pontoY) {
         this.pontoX = pontoX;
         this.pontoY = pontoY;
     }
-
+    
     public double getPontoX() {
         return pontoX;
     }
@@ -20,7 +20,7 @@ public class PontoCartesiano {
     public void setPontoX(double x) {
         pontoX = x;
     }
-
+    
     public void setPontoY(double y) {
         pontoY = y;
     }

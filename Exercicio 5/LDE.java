@@ -8,7 +8,7 @@ public class LDE implements Lista {
         this.fim = null;
     }
     public void insereInicio(Alunos aluno) {
-        if (estahVazia()) {
+        if (estahVazoa()) {
             inicio = aluno;
             fim = aluno;
         } else {
@@ -17,7 +17,7 @@ public class LDE implements Lista {
         }
     }
     public void insereFim(Alunos aluno) {
-        if (estahVazia()) {
+        if (estahVazoa()) {
             inicio = aluno;
             fim = aluno;
         } else {
@@ -25,11 +25,11 @@ public class LDE implements Lista {
             fim = aluno;
         }
     }
-    public boolean estahVazia() {
+    public boolean estahVazoa() {
         return inicio == null;
     }
     public void remover(Alunos aluno) {
-        if (estahVazia()) {
+        if (estahVazoa()) {
             System.out.println("Lista vazia");
         } else {
             Alunos aux = inicio;

@@ -1,4 +1,3 @@
-package Locadora de Veiculos;
 
 public class Clientes {
     private String nome;
@@ -16,39 +15,51 @@ public class Clientes {
         this.proximo = null;
         this.anterior = null;
     }
+
     public String getNome() {
         return nome;
     }
+
     public void setNome(String nome) {
         this.nome = nome;
     }
+
     public String getCpf() {
         return cpf;
     }
+
     public void setCpf(String cpf) {
         this.cpf = cpf;
     }
+
     public String getCnh() {
         return cnh;
     }
+
     public void setCnh(String cnh) {
         this.cnh = cnh;
     }
+
     public String getTelefone() {
         return telefone;
     }
+
     public void setTelefone(String telefone) {
         this.telefone = telefone;
     }
+
     public Clientes getProximo() {
         return proximo;
     }
+
     public Clientes getAnterior() {
         return anterior;
     }
+
     public void setProximo(Clientes proximo) {
         this.proximo = proximo;
     }
+
     public void setAnterior(Clientes anterior) {
         this.anterior = anterior;
     }
